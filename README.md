@@ -32,7 +32,8 @@ Feel free to reach out for collaboration, feedback, or questions!
 💼 LinkedIn: https://www.linkedin.com/in/armagans/
 
 #ScreenShot
-![EkranKayd2025-08-10111317-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/40673366-3590-40e6-bb05-818165f7ef8f)
+![EkranKayd2025-08-10105945-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/e0f2a9fc-6231-43dc-9eda-ca4482fd29ee)
+
 
 
 
