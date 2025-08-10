@@ -22,4 +22,14 @@ Fashion-themed layout and product cards
 
 📌 Purpose
 This project was created for practice and portfolio purposes, focusing on front-end development and UI/UX design in an e-commerce context.
+📬 Contact
+Feel free to reach out for collaboration, feedback, or questions!
+
+📧 Email: eminar38s@gmail.com
+
+🔗 GitHub: https://github.com/armsalter
+
+💼 LinkedIn: https://www.linkedin.com/in/armagans/
+
+#ScreenShot
 
