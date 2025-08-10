@@ -1,0 +1,106 @@
+@use "./variables";
+.cart-container {
+  margin-top: 50px !important;
+  //Back to home
+  .back-to-home-button {
+    display: block; // bu class a etiketi içinde olduğundan margin: özelliği işlemedi, o yüzden block uyguladık.
+    margin: 20px 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: variables.$text-color;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  //Title
+  .cart-title {
+    margin: 30px 10px;
+    font-size: 35px;
+  }
+  //Cart wrapper
+  .cart-wrapper {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 20px;
+    // Cart Items
+    .cart-items {
+      //Cart Item
+      .cart-item {
+        display: grid;
+        grid-template-columns: 0.5fr 1fr 0.5fr 0.5fr;
+        align-items: center;
+        padding: 10px 15px;
+        border-bottom: 1px solid rgba(227, 227, 227);
+
+        // Cart Image
+        img {
+          width: 80px;
+          height: 80px;
+          object-fit: cover;
+        }
+        // Cart Item Info
+        &-info {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          //Cart Item Title
+          .cart-item-title {
+            font-size: 20px;
+            font-weight: 400;
+          }
+          // Cart Item Quantity
+          .cart-item-quantity {
+            border: 1px solid variables.$text-color;
+            width: 40px;
+            text-align: center;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+        }
+        //Cart Item price
+        .cart-item-price {
+          font-size: 20px;
+          font-weight: 500;
+        }
+        // Cart remove Button
+        .remove-button {
+          background-color: crimson;
+          color: variables.$bg-color;
+          padding: 8px;
+          max-width: 100px;
+          font-weight: 600;
+          cursor: pointer;
+        }
+      }
+    }
+
+    //Checkbox
+    .cart-checkbox {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      // Total Price
+      h2 {
+        font-size: 32px;
+        white-space: nowrap;
+        font-weight: 600;
+      }
+      .checkout-btn{
+        background-color: variables.$main-color;
+        color: variables.$bg-color;
+        padding: 10px;
+        font-size: 17px;
+        border-radius: 5px;
+        max-width: 150px;
+        cursor: pointer;
+      }
+      // Fee Title
+      .fee-title{
+        font-size: 20px;
+        font-weight: bold;
+        white-space: nowrap;
+      }
+    }
+  }
+}
